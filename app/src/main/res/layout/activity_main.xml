@@ -6,19 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
- <Button
-     android:layout_width="match_parent"
-     android:layout_height="wrap_content"
-     android:text="Start Service"
-     android:onClick="StartService"
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="StartService"
+        android:text="Start Service"
+        android:id="@+id/serviceButton"
 
-     />
+        />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/serviceButton"
         android:onClick="StopService"
-        android:text="Stop Service"
+        android:text="Stop Service" />
 
-        />
 </RelativeLayout>
