@@ -28,6 +28,7 @@ public class MyService extends Service {
 
         Toast.makeText(this, "Servicing is Running", Toast.LENGTH_SHORT).show();
 
+        stopSelf();   //Stop service automatic after working
         return super.onStartCommand(intent, flags, startId);
     }
 

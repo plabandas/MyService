@@ -7,11 +7,11 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/serviceButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="StartService"
         android:text="Start Service"
-        android:id="@+id/serviceButton"
 
         />
 
