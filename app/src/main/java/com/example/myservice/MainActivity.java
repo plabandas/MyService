@@ -20,13 +20,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void StartService(View view) {
 
-        startService(new Intent(MainActivity.this,MyService.class));
+        startService(new Intent(MainActivity.this,MyIntentService.class));
 
     }
 
     public void StopService(View view) {
 
-        stopService(new Intent(MainActivity.this,MyService.class));
+        stopService(new Intent(MainActivity.this,MyIntentService.class));
 
     }
 }
